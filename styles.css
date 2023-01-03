@@ -80,15 +80,17 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 .project-box {
+    display: inline-block;
     display: flex;
     flex-direction: row;  /* change the flex direction to row */
     align-items: center;
     width: 50%;
-    height: 170px;
+    /* height: 170px; */
     margin: 15px auto;
     border: 2px solid rgb(142, 151, 154);
     border-radius: 1px;
     transition: border 0.5s;
+    
   }
   
 .project-image {
@@ -96,6 +98,7 @@ body {
     border: 1px solid rgb(97, 130, 120);
     width: 120px;
     height: 120px;
+
     margin-right: 20px;  /* add some space between the image and the text */
     margin-left: 40px;
     border-radius: 4px;
